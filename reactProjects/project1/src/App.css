@@ -1,0 +1,131 @@
+ body{
+  color:white;
+  background-color:black;
+ }
+ .Reactfacts{
+  color:#61DAFB;
+ position: relative;
+ left:20px;
+ font-size: 30px;
+
+ }
+.logo{
+  width: 100px;
+  margin-left: 30px;;
+}
+ .navbar{
+  
+  display:flex;
+  color:#61DAFB;
+   
+ }
+ .Project1{
+  color:#61DAFB;
+  position: absolute;
+ right:10px;
+ font-size: 30px;
+ }
+ 
+  .main{
+    margin-left:30px;
+    display:flex;
+    justify-content: space-between;
+   font-size:30px;
+  
+
+    ;
+  }
+.title{
+  margin-left:40px ;
+  font-size:50px;
+}
+
+  .image{
+    margin-top:50px;
+    width:300px;
+   
+  }
+  ul {
+    padding-block: 10px;
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #61DAFB; /* Change the color */
+    font-weight:bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  /*
+  /*
+  /** {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}*/
